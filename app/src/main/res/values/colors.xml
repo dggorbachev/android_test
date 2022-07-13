@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="white_diffuse">#28FFFFFF</color>
+    <color name="dark_blue">#050B18</color>
+    <color name="yellow">#F4D144</color>
+    <color name="picton_blue">#44A9F4</color>
+    <color name="picton_blue_diffuse">#1844A9F4</color>
+    <color name="grey_100">#EEF2FB</color>
+    <color name="grey_200">#A8ADB7</color>
+    <color name="grey_300">#45454D</color>
+    <color name="grey_800">#1A1F29</color>
 </resources>

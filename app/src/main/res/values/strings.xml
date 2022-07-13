@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Sirius</string>
+    <string name="default_app_name">CS:GO</string>
+    <string name="default_rating_count">10M</string>
+    <string name="default_review_count">10M Reviews</string>
+    <string name="default_author_name">James Dean</string>
+    <string name="default_date">January 1, 1970</string>
+    <string name="default_title_genre">Singleplayer</string>
+    <string name="default_app_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="review_and_ratings" formatted="true"><![CDATA[Review & Ratings]]></string>
+    <string name="default_rating_score">4.9</string>
+    <string name="install_button">Install</string>
+    <string name="blackout_app_picture">Blackout app picture</string>
+    <string name="app_picture">App picture</string>
+    <string name="app_logo">App logo</string>
+    <string name="review_author_picture">Review author picture</string>
+    <string name="circle_for_arrow_back">Circle for arrow back</string>
+    <string name="arrow_back">Arrow back</string>
+    <string name="circle_for_more_options">Circle for more options</string>
+    <string name="more_options">More options</string>
 </resources>

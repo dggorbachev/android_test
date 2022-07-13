@@ -1,12 +1,12 @@
 package com.sirius.test_app
 
 class DataModel(
-    val image: String = "https://ibb.co/37KzF03",
-    val logo: String = "https://ibb.co/GpbZg5t",
+    val image: String = "https://i.ibb.co/g3YVWD2/img-background.png",
+    val logo: String = "https://i.ibb.co/Pjf2B69/img-logo.png",
     val name: String = "DoTA 2",
-    val rating: Float = 4.9f,
+    val rating: Float = 4.5f,
     val gradeCnt: String = "70M",
-    val tags: List<String> = listOf("MOBA", "MULTIPLAYER", "STRATEGY"),
+    val tags: List<String> = listOf("MOBA", "MULTIPLAYER", "STRATEGY", "ACTION", "SHOOTER", "ADVENTURE", "FISHING"),
     val videos: List<VideoModel> = listOf(
         VideoModel(id = "video_1", image = "https://ibb.co/q7dyBVH"),
         VideoModel(id = "video_2", image = "https://ibb.co/S3GymhJ")
@@ -14,17 +14,24 @@ class DataModel(
     val description: String = "Dota 2 is a multiplayer online battle arena (MOBA) game which has two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the \"Ancient\", whilst defending their own.",
     val reviews: List<ReviewModel> = listOf(
         ReviewModel(
-            userImage = "https://ibb.co/WcJMjSw",
+            userImage = "https://i.ibb.co/55HSwqy/img-user-1.png",
             userName = "Auguste Conte",
             date = "February 14, 2019",
             message = "“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”"
         ),
         ReviewModel(
-            userImage = "https://ibb.co/p1q4QZr",
+            userImage = "https://i.ibb.co/j8t3zGZ/img-user-2.png",
             userName = "Jang Marcelino",
             date = "February 14, 2019",
             message =
             "“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”"
+        ),
+        ReviewModel(
+            userImage = "https://static.wikia.nocookie.net/super-mario/images/c/cc/NSMBUD_Mariojump.png/revision/latest?cb=20180920200811&path-prefix=ru",
+            userName = "Mario",
+            date = "March 11, 1981",
+            message =
+            "“It's me, Mario.”"
         )
     ),
     val action: ActionModel = ActionModel(
