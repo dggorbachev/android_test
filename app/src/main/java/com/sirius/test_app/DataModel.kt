@@ -4,9 +4,9 @@ class DataModel(
     val image: String = "https://i.ibb.co/g3YVWD2/img-background.png",
     val logo: String = "https://i.ibb.co/Pjf2B69/img-logo.png",
     val name: String = "DoTA 2",
-    val rating: Float = 4.5f,
+    val rating: Float = 4.9f,
     val gradeCnt: String = "70M",
-    val tags: List<String> = listOf("MOBA", "MULTIPLAYER", "STRATEGY", "ACTION", "SHOOTER", "ADVENTURE", "FISHING"),
+    val tags: List<String> = listOf("MOBA", "MULTIPLAYER", "STRATEGY"),
     val videos: List<VideoModel> = listOf(
         VideoModel(id = "video_1", image = "https://ibb.co/q7dyBVH"),
         VideoModel(id = "video_2", image = "https://ibb.co/S3GymhJ")
@@ -25,13 +25,6 @@ class DataModel(
             date = "February 14, 2019",
             message =
             "“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”"
-        ),
-        ReviewModel(
-            userImage = "https://static.wikia.nocookie.net/super-mario/images/c/cc/NSMBUD_Mariojump.png/revision/latest?cb=20180920200811&path-prefix=ru",
-            userName = "Mario",
-            date = "March 11, 1981",
-            message =
-            "“It's me, Mario.”"
         )
     ),
     val action: ActionModel = ActionModel(
